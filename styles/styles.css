@@ -537,7 +537,10 @@ p.hero__inner-components {
 .about__inner-container {
     margin-top: 0;
     padding-top: clamp(2.625rem, 3.5vw, 3rem);
+    
 }
+
+
 
 .about__title {
     padding-top: .25rem;
@@ -549,6 +552,24 @@ p.hero__inner-components {
     margin-bottom: 8rem;
     margin-right: 2rem;
     max-width: 330px;
+    position: relative;
+    border-radius: 5px;
+    border: 3px solid var(--second-color);
+}
+
+.about__avatar__overlay{
+    position: absolute;
+    background-color: var(--second-color);
+    opacity: .3;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: all .6s ease-out;
+}
+
+.about__avatar__overlay:hover{
+    opacity: 0;
 }
 
 .about__content {
@@ -577,7 +598,7 @@ p.hero__inner-components {
 @media screen and (max-width:854px) {
     .about__image-container {
 
-        margin-bottom: 0;
+        margin-bottom: 1rem;
     }
 }
 
