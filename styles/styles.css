@@ -566,6 +566,10 @@ p.hero__inner-components {
     line-height: clamp(1.4rem, 3vw, 2rem);
 }
 
+.about__content-text :first-child{
+    margin-top: 0;
+}
+
 .about__content-text:last-child {
     margin-bottom: 2rem;
 }
