@@ -566,10 +566,6 @@ p.hero__inner-components {
     line-height: clamp(1.4rem, 3vw, 2rem);
 }
 
-.about__content-text :first-child{
-    margin-top: 0;
-}
-
 .about__content-text:last-child {
     margin-bottom: 2rem;
 }
@@ -923,7 +919,7 @@ p.hero__inner-components {
 }
 
 .tech__skill__inner.css3 {
-    width: 75%;
+    width: 95%;
     background-color: #2196F3;
 }
 
